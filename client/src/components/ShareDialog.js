@@ -53,7 +53,7 @@ export default function ShareDialog({dialogOpen, showShareProjectDialog}) {
                                     </div>
                                     <div className="mt-3 text-center sm:mt-5">
                                         <Dialog.Title as="h3" className="text-lg leading-6 font-medium text-gray-900">
-                                            Darie-Dragoș Mitoiu Portfolio
+                                            Darie-Dragoș Mitoiu LCG Assessment
                                         </Dialog.Title>
                                         <div className="mt-2">
                                             <div>
@@ -69,7 +69,7 @@ export default function ShareDialog({dialogOpen, showShareProjectDialog}) {
                                                         name="company-website"
                                                         id="company-website"
                                                         className="flex-1 min-w-0 block w-full px-3 py-2 rounded-none rounded-r-md focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm border-gray-300"
-                                                        value={"www.dmitoiu.com" + location.pathname}
+                                                        value={"lcg-converter-app" + location.pathname}
                                                         disabled={true}
                                                     />
                                                     <button
