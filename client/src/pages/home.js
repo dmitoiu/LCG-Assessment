@@ -84,7 +84,7 @@ const Home = () => {
 
     const handleOnChangeFC = (e) => {
         let userInput = e.target.value;
-        if(!validator.isInt(userInput) || !validator.isFloat(userInput)){
+        if(!validator.isNumeric(userInput)){
             fahrenheitRef.current.className = inputStyle.classNameError;
             setErrorFahrenheitCelsius(true);
         } else {
@@ -96,7 +96,7 @@ const Home = () => {
 
     const handleOnChangeCF = (e) => {
         let userInput = e.target.value;
-        if(!validator.isInt(userInput) || !validator.isFloat(userInput)){
+        if(!validator.isNumeric(userInput)){
             celsiusRef.current.className = inputStyle.classNameError;
             setErrorCelsiusFahrenheit(true);
         } else {
